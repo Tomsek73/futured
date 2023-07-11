@@ -6,7 +6,7 @@ struct ContentView: View {
         VStack(spacing: 16) {
             
             
-            Text("Add to my number is \(cislo)")
+            Text("Add 1 to my number \(cislo)")
             Button("Click"){
                 cislo+=1
             }
