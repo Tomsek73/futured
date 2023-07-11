@@ -1,15 +1,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var cislo = 0
     var body: some View {
         VStack(spacing: 16) {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hi!")
-            Text("My name is.. (what?)")
-            Text("My name is.. (who?)")
-            Text("My name is ...")
+            
+            
+            Text("Add to my number is \(cislo)")
+            Button("Click"){
+                cislo+=1
+            }
         }
         .padding()
     }
